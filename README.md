@@ -66,7 +66,7 @@ A **comprehensive observability platform** for microservices architectures with 
 
 ```bash
 # Clone the repository
-git clone https://github.com/gabriellafis/microservices-observability-platform.git
+git clone https://github.com/galafis/microservices-observability-platform.git
 cd microservices-observability-platform
 
 # Start all services
@@ -409,7 +409,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Gabriel Demetrios Lafis**
 
-- GitHub: [@gabriellafis](https://github.com/gabriellafis)
+- GitHub: [@galafis](https://github.com/galafis)
 - LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-lafis)
 
 ---
@@ -443,7 +443,7 @@ Uma **plataforma abrangente de observabilidade** para arquiteturas de microsserv
 
 ```bash
 # Clone o repositório
-git clone https://github.com/gabriellafis/microservices-observability-platform.git
+git clone https://github.com/galafis/microservices-observability-platform.git
 cd microservices-observability-platform
 
 # Inicie todos os serviços
@@ -528,7 +528,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 **Gabriel Demetrios Lafis**
 
-- GitHub: [@gabriellafis](https://github.com/gabriellafis)
+- GitHub: [@galafis](https://github.com/galafis)
 - LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-lafis)
 
 ---
