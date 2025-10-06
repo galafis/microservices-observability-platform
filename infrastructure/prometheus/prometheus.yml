@@ -1,0 +1,44 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+  external_labels:
+    cluster: 'microservices-observability'
+    environment: 'development'
+
+scrape_configs:
+  # Prometheus self-monitoring
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+
+  # API Gateway
+  - job_name: 'api-gateway'
+    metrics_path: '/metrics'
+    static_configs:
+      - targets: ['api-gateway:8000']
+        labels:
+          service: 'api-gateway'
+
+  # User Service
+  - job_name: 'user-service'
+    metrics_path: '/metrics'
+    static_configs:
+      - targets: ['user-service:8001']
+        labels:
+          service: 'user-service'
+
+  # Order Service
+  - job_name: 'order-service'
+    metrics_path: '/metrics'
+    static_configs:
+      - targets: ['order-service:8002']
+        labels:
+          service: 'order-service'
+
+  # Payment Service
+  - job_name: 'payment-service'
+    metrics_path: '/metrics'
+    static_configs:
+      - targets: ['payment-service:8003']
+        labels:
+          service: 'payment-service'
