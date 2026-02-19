@@ -53,3 +53,7 @@ Thumbs.db
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Environment
+.env
+.env.local
